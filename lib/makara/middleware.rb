@@ -103,7 +103,7 @@ module Makara
         :max_age => '5'
       }
 
-      Rack::Utils.set_cookie_header!(header, IDENTIFIER, cookie_value)
+      #Rack::Utils.set_cookie_header!(header, IDENTIFIER, cookie_value)
     end
   end
 end
